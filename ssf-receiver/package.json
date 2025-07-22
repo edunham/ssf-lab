@@ -1,0 +1,18 @@
+{
+  "name": "ssf-receiver",
+  "version": "1.0.0",
+  "description": "SSF/CAEP Event Receiver for Educational Lab",
+  "main": "receiver.js",
+  "scripts": {
+    "start": "node receiver.js",
+    "dev": "node --watch receiver.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

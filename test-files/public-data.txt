@@ -1,0 +1,7 @@
+This is public information that anyone can access.
+It contains no sensitive data and is safe to read.
+
+Sample public data:
+- Company name: Acme Corp
+- Public contact: info@acme.com
+- Website: https://www.acme.com
