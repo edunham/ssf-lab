@@ -51,7 +51,6 @@ cd ssf-receiver && npm install && cd ..
 **Terminal 1 - Start SSF Receiver:**
 ```bash
 cd ssf-receiver
-chmod +x start-receiver.sh
 ./start-receiver.sh
 ```
 ✅ **Verify**: Dashboard loads at http://localhost:8082
@@ -59,7 +58,6 @@ chmod +x start-receiver.sh
 **Terminal 2 - Start MCP Server:**
 ```bash
 cd mcp-server  
-chmod +x start-server.sh
 ./start-server.sh
 ```
 ✅ **Verify**: Server shows "SSF Security MCP Server Started"
@@ -267,7 +265,6 @@ curl -X POST http://localhost:8082/events -H "Content-Type: application/json" -d
 
 ### Common Problems
 - **"Module not found"**: Run `pip install -r mcp-server/requirements.txt`
-- **"Permission denied"**: Run `chmod +x *.sh` in relevant directories  
 - **"Port already in use"**: Change ports in configuration or kill existing processes
 - **"Events not appearing"**: Check receiver URL in MCP server configuration
 
